@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Azimut Hotel Yaroslavl",
+        "location": "Московский пр-т, д. 10\/15, Ярославль",
+        "distance": "1.8 км от центра",
+        "price": "от 10 300",
+        "stars": 4,
+        "image": "images\/hotels\/azimut.png",
+        "link": "https:\/\/ostrovok.ru\/hotel\/russia\/yaroslavl\/mid7826083\/saint_george_hotel\/?dates=03.05.2025-04.05.2025&guests=1&page=1&q=180349&sid=04f91abd-6330-4e78-a6f4-0d1f69e02022&room=s-e3e73114-337c-59c2-bc62-efd680943da7&serp_price=saint_george_hotel.10300.RUB.sr-01967c6d-922a-768e-8b64-f148332b7b8a"
+    },
+    {
+        "name": "Cosmos Yaroslavl",
+        "location": "улица Павлика Морозова, 3Б, Ярославль",
+        "distance": "3.5 км от центра",
+        "price": "от 13 000",
+        "stars": 4,
+        "image": "images\/hotels\/cosmos.png",
+        "link": "https:\/\/ostrovok.ru\/hotel\/russia\/yaroslavl\/mid10173255\/hotel_cosmos_yaroslavl_hotel\/?dates=03.05.2025-04.05.2025&guests=1&page=1&q=180349&sid=04f91abd-6330-4e78-a6f4-0d1f69e02022&serp_price=hotel_cosmos_yaroslavl_hotel.13000.RUB.sr-01967c6d-922a-768c-ad0d-698dc1ce916c"
+    },
+    {
+        "name": "Scandi House",
+        "location": "Республиканская улица, д.47 В, Ярославль",
+        "distance": "786 м от центра",
+        "price": "от 7 867",
+        "stars": 2,
+        "image": "images\/hotels\/Scandi-House-Hotel-Yaroslavl-Exterior.jpg",
+        "link": "https:\/\/ostrovok.ru\/hotel\/russia\/yaroslavl\/mid9260483\/scondi_house\/?dates=03.05.2025-04.05.2025&guests=1&page=1&q=180349&sid=04f91abd-6330-4e78-a6f4-0d1f69e02022&serp_price=scondi_house.7867.RUB.sr-01967c6d-922a-7694-8ca6-da3252eb21c4"
+    },
+    {
+        "name": "Ring Premier Hotel",
+        "location": "улица Свободы, 55, Ярославль",
+        "distance": "1.4 км от центра",
+        "price": "от 15 727",
+        "stars": 4,
+        "image": "images\/hotels\/ring.jpg",
+        "link": "https:\/\/ostrovok.ru\/hotel\/russia\/yaroslavl\/mid7845347\/ring_premier_hotel\/?dates=03.05.2025-04.05.2025&guests=1&page=1&q=180349&sid=04f91abd-6330-4e78-a6f4-0d1f69e02022&serp_price=ring_premier_hotel.15727.RUB.sr-01967c6d-9765-76ec-a991-440ad350d113"
+    },
+    {
+        "name": "Отель Ласточка",
+        "location": "Волжская Набережная улица, 15а, Ярославль",
+        "distance": "345 м от центра",
+        "price": "от 37 844",
+        "stars": 5,
+        "image": "images\/hotels\/lastochka.png",
+        "link": "https:\/\/ostrovok.ru\/hotel\/russia\/yaroslavl\/mid11233297\/hotel_lastochka_2\/?dates=03.05.2025-04.05.2025&guests=1&page=2&q=180349&sid=04f91abd-6330-4e78-a6f4-0d1f69e02022&serp_price=hotel_lastochka_2.37844.RUB.sr-01967ca6-2e37-71a0-8256-e6598dc5d4da"
+    },
+    {
+        "name": "Отель Лимонад",
+        "location": "улица Павлика Морозова, д. 4а, Ярославль",
+        "distance": "3.5 км от центра",
+        "price": "от 10 156",
+        "stars": 4,
+        "image": "images\/hotels\/limonad.png",
+        "link": "https:\/\/ostrovok.ru\/hotel\/russia\/yaroslavl\/mid9986564\/limonad_hostel\/?dates=03.05.2025-04.05.2025&guests=1&page=1&q=180349&sid=04f91abd-6330-4e78-a6f4-0d1f69e02022&serp_price=limonad_hostel.10156.RUB.sr-01967ca6-2e37-7a86-b795-c4cdd47c1ba2"
+    },
+    {
+        "name": "Отель Соколёна",
+        "location": "Институтская улица, д. 5\/17, Ярославль",
+        "distance": "5.1 км от центра",
+        "price": "от 17 129",
+        "stars": 4,
+        "image": "images\/hotels\/sokolena2.jpg",
+        "link": "https:\/\/ostrovok.ru\/hotel\/russia\/yaroslavl\/mid10515897\/sokolyona_hotel\/?dates=03.05.2025-04.05.2025&guests=1&page=1&q=180349&sid=04f91abd-6330-4e78-a6f4-0d1f69e02022&serp_price=sokolyona_hotel.17129.RUB.sr-01967ca6-30f6-73e0-b994-3acdf3b32238"
+    },
+    {
+        "name": "Отель Bakkara Complex",
+        "location": "ул. Кооперативная, д. 9, Ярославль",
+        "distance": "1.2 км от центра",
+        "price": "от 8 963",
+        "stars": 4,
+        "image": "images\/hotels\/bakkara.png",
+        "link": "https:\/\/ostrovok.ru\/hotel\/russia\/yaroslavl\/mid6529380\/baccara_\/?dates=03.05.2025-04.05.2025&guests=1&page=1&q=180349&sid=04f91abd-6330-4e78-a6f4-0d1f69e02022&serp_price=baccara_.8963.RUB.sr-01967ca6-2eab-7ae3-9893-190aadfee2c7"
+    },
+    {
+        "name": "Гостиница Алеша Попович Двор",
+        "location": "улица Первомайская, д.55, Ярославль",
+        "distance": "439 м от центра",
+        "price": "от 10 635",
+        "stars": 3,
+        "image": "images\/hotels\/alesha.jpg",
+        "link": "https:\/\/ostrovok.ru\/hotel\/russia\/yaroslavl\/mid7773431\/aljosha_popovich_dvor\/?dates=03.05.2025-04.05.2025&guests=1&page=1&q=180349&sid=04f91abd-6330-4e78-a6f4-0d1f69e02022&serp_price=aljosha_popovich_dvor.10635.RUB.sr-01967ca6-2eab-7aeb-9203-187d8eaa4c13"
+    },
+    {
+        "name": "Отель Азимут",
+        "location": "8 Марта 7",
+        "distance": "3 км от центра",
+        "price": "10000",
+        "stars": 3,
+        "image": "images\/hotels\/azimut.png",
+        "link": "https:\/\/ostrovok.ru\/hotel\/russia\/yaroslavl\/mid7826083\/saint_george_hotel\/?dates=03.05.2025-04.05.2025&guests=1&page=1&q=180349&sid=04f91abd-6330-4e78-a6f4-0d1f69e02022&room=s-e3e73114-337c-59c2-bc62-efd680943da7&serp_price=saint_george_hotel.10300.RUB.sr-01967c6d-922a-768e-8b64-f148332b7b8a"
+    }
+]

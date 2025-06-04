@@ -1,0 +1,506 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    /*старый красный цвет header DA513D*/
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    padding: 20px;
+    background-color: #E6B800;
+    color: white;
+}
+
+header .logo a img {
+    height: 60px;
+}
+
+header nav {
+    flex-grow: 1; /* Позволяет навигации занимать оставшееся пространство */
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center; /* Выравнивание кнопок по центру */
+    list-style: none;
+    padding-left: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFF9C4;  /* Очень светло-жёлтый, почти кремовый */
+    color: #444444;  /* Тёмно-серый текст, мягкий */
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid #F0E68C; /* Светлый оттенок жёлтого для контура */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #FFF176; /* Немного ярче при наведении */
+    color: #222222;  /* Темнее текст */
+    border-color: #FFD700; /* Золотой контур */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header nav ul li a.active {
+    background-color: #FFD600; /* Чуть насыщеннее */
+    color: #000000;
+    border-color: #B38F00; /* Тёмно-золотой */
+}
+
+
+/* 🔷 Обёртка хедера */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e30016;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+/* Основные стили */
+.main-image {
+    width: 100%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+}
+
+.image-container {
+    position: relative;
+}
+
+
+
+/* Текст поверх картинки с полупрозрачным фоном */
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Центр экрана */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    max-width: 90%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    z-index: 10; /* Поверх изображения */
+}
+
+
+.text-overlay h2 {
+    margin-bottom: 10px;
+    font-size: 2em; /* Размер заголовка */
+}
+
+.text-overlay p {
+    font-size: 1em; /* Уменьшение размера текста */
+}
+
+
+/* Стили для синего блока */
+.blue-blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* разрешаем перенос */
+    gap: 20px; /*  отступы между блоками */
+    padding: 20px 10px; /* внутренние отступы */
+    margin-top: -75px;
+    z-index: 1;
+}
+
+
+.block {
+    /*синий цвет 1F3A65 */
+    background-color: #E6B800;
+    color: black;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    width: 140px;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.block img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Routes Section */
+.routes {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.routes h2 {
+    margin-bottom: 30px; /* отступ снизу */
+}
+
+
+.routes-blocks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Блоки маршрутов */
+.route {
+    background-color: #ffffff;
+    padding: 30px; /* Увеличиваем внутренние отступы */
+    width: 30%;
+    height: 300px; /* Увеличиваем высоту блока */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #DA513D;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Отступ от текста */
+}
+
+button:hover {
+    background-color: #b14a31;
+}
+
+.more-routes {
+    background-color: #1F3A65;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #1D1D1D;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e30016; /* можно заменить на любой другой цвет при наведении */
+}
+
+.footer-left img {
+    width: 60px;
+    height: 70px;
+}
+
+.footer-center {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.footer-center p {
+    margin: 5px 0;
+}
+
+/* Правая часть — соцсети */
+.footer-right {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-right img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Гамбургер по умолчанию скрыт */
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.menu-toggle span {
+    background: white;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+
+/* 🔥 ДОБАВЛЕНО: боковое меню */
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;;
+    background-color: rgba(0, 0, 0, 0.8); /* прозрачный цвет */
+    backdrop-filter: blur(5px); /* эффект размытия */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1500;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.side-menu ul li {
+    margin: 20px 0;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.side-menu ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.side-menu ul li .side-login {
+    color: white;
+    text-decoration: none;
+   
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 15px;
+    display: block;
+}
+
+
+/* 🔥 ДОБАВЛЕНО: кнопка закрытия */
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 36px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* ✅ Кнопка входа */
+.login-btn {
+    margin-left: auto;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.login-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 30px;
+    background-color: #DA513D; /* Красный */
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 2px solid transparent; /* Прозрачная граница */
+    position: relative;
+    overflow: hidden;
+}
+
+.login-btn a:hover {
+    background-color: #C0412D; /* Темнее на 15% */
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+/* Мобильная версия */
+@media (max-width: 1400px) {
+    header nav {
+        display: none; /* Скрыть меню */
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        background-color: #e30016;
+        padding: 20px;
+        border-radius: 10px;
+        z-index: 1000;
+    }
+
+    header nav.active {
+        display: block;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .login-btn {
+        display: none; /* Спрятать в мобильной версии */
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .text-overlay {
+        font-size: 0.9em;
+        padding: 12px 15px;
+    }
+
+    .text-overlay h2 {
+        font-size: 1.3em;
+    }
+
+    .text-overlay p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-overlay {
+        font-size: 0.9em;
+        padding: 10px 12px;
+    }
+
+    .text-overlay h2 {
+        font-size: 1.2em;
+    }
+
+    .text-overlay p {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 768px) {
+    .block {
+        width: 120px;
+        height: 110px;
+    }
+
+    .blue-blocks {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .routes h2 {
+        margin-bottom: 20px;
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+/* Стили блоков с историей */
+.history-page {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .history-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 60px 0;
+    flex-wrap: wrap;
+  }
+  
+  .history-block img {
+    width: 45%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .history-block .text {
+    width: 50%;
+    min-width: 300px;
+  }
+  
+  .history-block.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .fact {
+    margin-top: 15px;
+    font-style: italic;
+    color: #444;
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 768px) {
+    .history-block, .history-block.reverse {
+      flex-direction: column !important;
+      text-align: center;
+    }
+  
+    .history-block img, .history-block .text {
+      width: 100%;
+    }
+  }
+  
